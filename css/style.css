@@ -6,17 +6,64 @@
   padding: 0;
 }
 
+img {
+  height: 100%;
+  object-fit: cover;
+}
+/* style */
+
 .container {
   width: 900px;
   padding: 30px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* card */
 
 .card {
   width: calc(33%);
-  background-color: red;
   height: 400px;
   display: inline-block;
 }
+
+/* description photo */
+
+.photo-description {
+  position: absolute;
+  font-family: sans-serif;
+}
+
+#brand-name {
+  font-size: 14px;
+}
+
+#clothing-type {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#sale-price {
+  font-weight: bold;
+  font-size: 12px;
+  color: red;
+}
+
+#original-price {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+/* euro sing */
+
+#sale-price:after {
+  content: " €";
+}
+
+#original-price:after {
+  content: " €";
+}
+/* heart icon */
+
+/* text inside photo */
