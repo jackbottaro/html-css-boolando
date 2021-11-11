@@ -10,27 +10,40 @@
     <title>Boolando</title>
 </head>
 <body>
-    <!-- visualizzo i prodotti in una griglia -->
+    <!-- creo un container con una grandezza specifica che andrà a racchiudere tutti i miei prodotti -->
     <main class="container">
-        <!-- creo un container con una grandezza specifica che andrà a racchiudere tutti i miei prodotti -->
+        <!-- creo un divo in cui andrò a categorizzre gli <article> a gruppi di 3 -->
         <div>
+            <!-- creo classe wrap che gestisce la dispozione e il padding tra gli elementi -->
             <div class="wrap">
+                <!-- creo classe card che si occupa di suddividere in 3 parti uguali il container e li mette come display inline-block -->
                 <article class="card ">
+                    <!-- creo classe per ogni singolo articolo in modo da poter gestire la foto del prodotto e l'hover -->
                     <img id="model-1" alt="">
+                        <!-- assegno una classe alla descrizione del prodotto per poter decidere dove posizarla -->
                         <p class="photo-description">
+                        <!-- id brand-name in modo da dagli una formattazione sempre uguale  -->
                         <span id="brand-name">Levi's </span>
                         <br>
+                        <!-- id tipologia abito per poter visualizzare con la giusta dimensione e upper case tutto il testo -->
                         <span id="clothing-type">relaxed fit tee unisex</span>
                         <br>
+                        <!-- id sale-price per colorarlo di rosso e id original-price per metterlo sbarratato -->
                         <span id="sale-price">14,99</span> <span id="original-price">29,99</span>
                     </p>
+                <!-- creo box in cui andrò a scrivero la percentuale dello sconto -->
                 <div id="discount-box">
+                    <!-- ammontare dello sconto -->
                     <div id="discount-amount">-50</div>
                 </div>
+                <!-- box per Sostenibilita -->
                 <div id="eco-box">
+                    <!-- etichetta che certifica prodotto green -->
                     <div id="eco-text">Sostenibilit&aacute;</div>
                 </div>
+                <!-- box in cui andrà il cuore  -->
                 <div id="heart-box">
+                    <!-- simbolo cuore con id per cambiare colore al passare del mouse -->
                     <div id="heart-sign">&#10084;</div>
                 </div>
                 </article>               
@@ -77,6 +90,7 @@
         
         </div>
 
+         <!-- creo un divo in cui andrò a suddividere le varie foto a gruppi di 3 -->
         <div id="pad">
             <div class="wrap">
                 <article class="card ">
