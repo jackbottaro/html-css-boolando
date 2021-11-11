@@ -6,13 +6,6 @@
   padding: 0;
 }
 
-img {
-  height: 100%;
-  object-fit: cover;
-}
-
-body {
-}
 /* style */
 
 .container {
@@ -21,13 +14,21 @@ body {
   margin: 0 auto;
 }
 
+.wrap {
+  padding: 10px;
+  display: inline;
+}
+
+#pad {
+  margin-top: 80px;
+}
+
 /* card */
 
 .card {
-  width: calc(33%);
-  height: 400px;
-  display: inline-block;
+  width: calc(30%);
   position: relative;
+  display: inline-block;
 }
 
 /* description photo */
@@ -90,6 +91,12 @@ body {
   line-height: 35px;
 }
 
+#heart-sign:hover {
+  color: red;
+  text-align: center;
+  line-height: 35px;
+}
+
 /* content inside photo */
 
 #discount-box {
@@ -124,4 +131,100 @@ body {
   font-family: sans-serif;
 }
 
-/* mouse hover photo */
+/* photo model */
+
+#model-1 {
+  background: url("/img/1.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-1:hover {
+  background: url("/img/1b.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-2 {
+  background: url("/img/2.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-2:hover {
+  background: url("/img/2b.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-3 {
+  background: url("/img/3.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-3:hover {
+  background: url("/img/3b.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-4 {
+  background: url("/img/4.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-4:hover {
+  background: url("/img/4b.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-5 {
+  background: url("/img/5.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-5:hover {
+  background: url("/img/5b.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-6 {
+  background: url("/img/6.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
+
+#model-6:hover {
+  background: url("/img/6b.webp");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+}
