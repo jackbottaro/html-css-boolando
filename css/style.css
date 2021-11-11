@@ -133,6 +133,7 @@
 
 /* photo model */
 
+/* model 1 photo */
 #model-1 {
   background: url("/img/1.webp");
   height: 400px;
@@ -149,6 +150,7 @@
   border: none;
 }
 
+/* model 2 photo */
 #model-2 {
   background: url("/img/2.webp");
   height: 400px;
@@ -165,6 +167,7 @@
   border: none;
 }
 
+/* model 3 photo */
 #model-3 {
   background: url("/img/3.webp");
   height: 400px;
@@ -181,6 +184,7 @@
   border: none;
 }
 
+/* model 4 photo */
 #model-4 {
   background: url("/img/4.webp");
   height: 400px;
@@ -197,6 +201,7 @@
   border: none;
 }
 
+/* model 5 photo */
 #model-5 {
   background: url("/img/5.webp");
   height: 400px;
@@ -213,6 +218,7 @@
   border: none;
 }
 
+/* model 6 photo */
 #model-6 {
   background: url("/img/6.webp");
   height: 400px;
