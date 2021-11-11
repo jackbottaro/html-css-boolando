@@ -1,0 +1,22 @@
+/* generics  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+/* card */
+
+.card {
+  width: calc(33%);
+  background-color: red;
+  height: 400px;
+  display: inline-block;
+}
