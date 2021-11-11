@@ -58,16 +58,37 @@ body {
   text-decoration: line-through;
 }
 
-/* euro sing */
+/* sub class */
 
 #sale-price:after {
-  content: " €";
+  content: " \20AC";
 }
 
 #original-price:after {
-  content: " €";
+  content: " \20AC";
 }
+
+#discount-amount:after {
+  content: "\0025";
+}
+
 /* heart icon */
+
+#heart-box {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  top: 10px;
+  right: 0;
+  position: absolute;
+  margin: 0;
+}
+
+#heart-sign {
+  color: black;
+  text-align: center;
+  line-height: 35px;
+}
 
 /* content inside photo */
 
@@ -102,3 +123,5 @@ body {
   padding: 2px;
   font-family: sans-serif;
 }
+
+/* mouse hover photo */
