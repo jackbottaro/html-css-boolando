@@ -19,7 +19,7 @@
   display: inline;
 }
 
-#pad {
+.pad {
   margin-top: 80px;
   margin-bottom: 50px;
 }
@@ -39,44 +39,44 @@
   font-family: sans-serif;
 }
 
-#brand-name {
+.brand-name {
   font-size: 14px;
 }
 
-#clothing-type {
+.clothing-type {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
 }
 
-#sale-price {
+.sale-price {
   font-weight: bold;
   font-size: 12px;
   color: red;
 }
 
-#original-price {
+.original-price {
   font-size: 12px;
   text-decoration: line-through;
 }
 
 /* sub class */
 
-#sale-price:after {
+.sale-price:after {
   content: " \20AC";
 }
 
-#original-price:after {
+.original-price:after {
   content: " \20AC";
 }
 
-#discount-amount:after {
+.discount-amount:after {
   content: "\0025";
 }
 
 /* heart icon */
 
-#heart-box {
+.heart-box {
   width: 35px;
   height: 35px;
   background-color: white;
@@ -86,13 +86,13 @@
   margin: 0;
 }
 
-#heart-sign {
+.heart-sign {
   color: black;
   text-align: center;
   line-height: 35px;
 }
 
-#heart-sign:hover {
+.heart-sign:hover {
   color: red;
   text-align: center;
   line-height: 35px;
@@ -101,14 +101,14 @@
 
 /* content inside photo */
 
-#discount-box {
+.discount-box {
   width: 40px;
   background-color: red;
   bottom: 20px;
   position: absolute;
 }
 
-#discount-amount {
+.discount-amount {
   color: white;
   font-weight: bold;
   font-family: sans-serif;
@@ -117,14 +117,14 @@
   padding: 2px;
 }
 
-#eco-box {
+.eco-box {
   background-color: #00875a;
   bottom: 20px;
   left: 43px;
   position: absolute;
 }
 
-#eco-text {
+.eco-text {
   color: white;
   font-size: 12px;
   font-weight: bold;
@@ -136,16 +136,16 @@
 /* photo model */
 
 /* model 1 photo */
-#model-1 {
-  background: url("/img/1.webp");
+.model-1 {
+  background: url("../img/1.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
   border: none;
 }
 
-#model-1:hover {
-  background: url("/img/1b.webp");
+.model-1:hover {
+  background: url("../img/1b.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -153,16 +153,16 @@
 }
 
 /* model 2 photo */
-#model-2 {
-  background: url("/img/2.webp");
+.model-2 {
+  background: url("../img/2.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
   border: none;
 }
 
-#model-2:hover {
-  background: url("/img/2b.webp");
+.model-2:hover {
+  background: url("../img/2b.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -170,16 +170,16 @@
 }
 
 /* model 3 photo */
-#model-3 {
-  background: url("/img/3.webp");
+.model-3 {
+  background: url("../img/3.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
   border: none;
 }
 
-#model-3:hover {
-  background: url("/img/3b.webp");
+.model-3:hover {
+  background: url("../img/3b.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -187,16 +187,16 @@
 }
 
 /* model 4 photo */
-#model-4 {
-  background: url("/img/4.webp");
+.model-4 {
+  background: url("../img/4.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
   border: none;
 }
 
-#model-4:hover {
-  background: url("/img/4b.webp");
+.model-4:hover {
+  background: url("../img/4b.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -204,16 +204,16 @@
 }
 
 /* model 5 photo */
-#model-5 {
-  background: url("/img/5.webp");
+.model-5 {
+  background: url("../img/5.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
   border: none;
 }
 
-#model-5:hover {
-  background: url("/img/5b.webp");
+.model-5:hover {
+  background: url("../img/5b.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -221,16 +221,16 @@
 }
 
 /* model 6 photo */
-#model-6 {
-  background: url("/img/6.webp");
+.model-6 {
+  background: url("../img/6.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
   border: none;
 }
 
-#model-6:hover {
-  background: url("/img/6b.webp");
+.model-6:hover {
+  background: url("../img/6b.webp");
   height: 400px;
   width: 100%;
   background-size: cover;
